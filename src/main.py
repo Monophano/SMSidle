@@ -1,5 +1,6 @@
 #import du modules
 from pygame import *
+from random import *
 
 #création d'une fenetre de 360 par 480
 game_fen = display.set_mode((360,480))
