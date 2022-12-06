@@ -1,5 +1,5 @@
 #import de bibliothèques
-import pygame, sys
+import pygame
 from random import *
 
 #import des modules de jeux
@@ -13,8 +13,12 @@ size = width, height = 320, 240
 #afficher l'écran
 screen = pygame.display.set_mode(size)
 
+#définition de running
+running = True
+
 #Game running
-while True:
+while running == True:
     for event in pygame.event.get():
-        if event.type == pygame.QUIT: sys.exit()
-            #pablo
+        if event.type == pygame.QUIT:
+            running = False
+            pygame.quit()
