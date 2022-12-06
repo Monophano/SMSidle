@@ -1,5 +1,5 @@
 #import du modules
-from pygame import *
+import pygame
 from random import *
 
 #création d'une fenetre de 360 par 480
@@ -9,7 +9,7 @@ game_fen = display.set_mode((360,480))
 display.set_caption("SMSIdle")
 
 #init la fen
-init()
+pygame.init()
 
 #setup du bg
 bg = image.load('')
