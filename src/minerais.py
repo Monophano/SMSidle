@@ -5,11 +5,10 @@ import pygame
 class Minerais():
     def __init__(self):
         self.roche = 1
-        self.cuivre = 3
-        self.fer = 5
-        self.gold = 10
-        self.diamant = 15
-        self.emeraude = 20
-        self.tungsten = 30
-
-    def  rn_
+        self.charbon = 3
+        self.cuivre = 5
+        self.fer = 10
+        self.gold = 20
+        self.diamant = 50
+        self.emeraude = 100
+        self.tungsten = 666
