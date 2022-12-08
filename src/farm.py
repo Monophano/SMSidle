@@ -1,3 +1,3 @@
-from minerai import *
+from minerais import *
 
 minerais = Minerais()
