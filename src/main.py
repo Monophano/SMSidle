@@ -2,9 +2,6 @@
 import pygame
 from random import *
 
-#import des modules de jeux
-from minerais import *
-
 #initiation de pygame
 pygame.init()
 
