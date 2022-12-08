@@ -2,6 +2,7 @@
 from random import *
 import pygame
 
+#création de l'objet minerais
 class Minerais():
     def __init__(self):
         self.roche = 1
@@ -12,3 +13,4 @@ class Minerais():
         self.diamant = 50
         self.emeraude = 100
         self.tungsten = 666
+
